@@ -1,3 +1,4 @@
+#Wikipedia Search page
 import wikipediaapi
 input=input("SPage:")
 while True:
