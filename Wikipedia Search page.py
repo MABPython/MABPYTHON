@@ -1,12 +1,11 @@
 #Wikipedia Search page
 import wikipediaapi
-input=input("SPage:")
-while True:
+def wiksp(str):
+    wiks=input("SPage:")
     wi=wikipediaapi.Wikipedia('en')
-    wk=wi.page(input)
+    wk=wi.page(wiks)
     wks=wk.summary[0:244]
-    #wkutf=wks.encode()
     print("Page Exists:%s"% wk.exists())
     print("Title:",wk.title,"\nSummary:",wks,"...")
     print("For more information, go to the link below.:\n",wk.fullurl)
-    break
+wiksp("SPage:")
