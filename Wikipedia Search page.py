@@ -12,3 +12,4 @@ def wiksp(str):
     print("Title:",wk.title,"\nSummary:",wks,"...")
     print("For more information, go to the link below.:\n",wk.fullurl)
 wiksp("SPage:")
+quit=input()
