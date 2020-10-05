@@ -9,7 +9,6 @@ def wiksp(str):
     else:
                 print("Page Exists:%s"% wk.exists())
     wks=wk.summary[0:244]
-    print("Title:",wk.title,"\nSummary:",wks,"...")
-    print("For more information, go to the link below.:\n",wk.fullurl)
+    print("Title:",wk.title,"\nSummary:",wks,"...","\nFor more information, go to the link below.:\n",wk.fullurl)
 wiksp("SPage:")
 quit=input()
