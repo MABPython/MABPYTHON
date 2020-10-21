@@ -7,4 +7,4 @@ My first project in programming
 
 **Title:** Ondicates the page title
 
-**Summary:** Asmall section of the page description
+**Summary:** A small section of the page description
