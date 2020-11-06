@@ -1,7 +1,7 @@
 # Wikipedia Search Page
 My first project in programming
 
-#Help 
+# Help:
 
 **SPage:** You Must Enter You Desired Text Here
 
